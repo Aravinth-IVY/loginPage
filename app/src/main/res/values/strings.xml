@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Team Manager</string>
+    <string name="uname">User name</string>
+    <string name="pwd">Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="rememberme">Remember me</string>
+    <string name="Dashboard">This is dash board</string>
+    <string name="home">HOME</string>
+    <string name="myprofile">MY PROFILE</string>
+    <string name="todaystask">TODAY\'S TASK</string>
+    <string name="serachteam">SEARCH TEAM</string>
+    <string name="logout">LOGOUT</string>
+    <string name="pendingtask">PENDING TASK</string>
+    <string name="Remainderslist">This is Remainders list</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_remainders">RemaindersActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+</resources>

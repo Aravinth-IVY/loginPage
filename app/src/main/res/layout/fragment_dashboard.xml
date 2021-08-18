@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/standard_margin"
+    tools:context="com.example.dashboard.DashboardFragment">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <TableRow android:layout_gravity="center">
+
+            <FrameLayout
+                android:id="@+id/flhome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivhome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/baseline_home_20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="@dimen/standard_margin"
+                    android:paddingTop="100dp"
+                    android:textColor="@color/blue"
+                    android:text="@string/home" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fltodaystask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/ivtodaystask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/baseline_task_20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="@dimen/standard_margin"
+                    android:textColor="@color/blue"
+                    android:paddingTop="100dp"
+                    android:text="@string/todaystask" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flpendingtask"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivpendingtask"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/home"
+                    android:src="@drawable/baseline_pending_actions_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="@dimen/standard_margin"
+                    android:textColor="@color/blue"
+                    android:paddingTop="100dp"
+                    android:text="@string/pendingtask" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <FrameLayout
+                android:id="@+id/flsearchteam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivsearchteam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/serachteam"
+                    android:src="@drawable/baseline_manage_search_20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="@dimen/standard_margin"
+                    android:textColor="@color/blue"
+                    android:paddingTop="100dp"
+                    android:text="@string/serachteam" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/flmyprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivmyprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/myprofile"
+                    android:src="@drawable/round_account_circle_20" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="@dimen/standard_margin"
+                    android:paddingTop="100dp"
+                    android:textColor="@color/blue"
+                    android:text="@string/myprofile" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/fllogout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/grey">
+
+                <ImageView
+                    android:id="@+id/ivlogout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/logout"
+                    android:src="@drawable/baseline_logout_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="@dimen/standard_margin"
+                    android:textColor="@color/red"
+                    android:paddingTop="100dp"
+                    android:text="@string/logout" />
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+</FrameLayout>
